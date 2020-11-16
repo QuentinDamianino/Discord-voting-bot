@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const config = require('./config.json');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -6,9 +7,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
+  if (msg.content === `${config.prefix}ping`) {
     msg.reply('pong');
   }
 });
 
-client.login('insert token');
+client.login(config.token);
