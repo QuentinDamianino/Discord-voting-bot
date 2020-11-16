@@ -1,0 +1,30 @@
+{
+  "name": "votingbot",
+  "version": "1.0.0",
+  "description": "Voting bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "dev:watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinDamianino/Discord-voting-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-js"
+  ],
+  "author": "Damian Brdej",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuentinDamianino/Discord-voting-bot/issues"
+  },
+  "homepage": "https://github.com/QuentinDamianino/Discord-voting-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "nodemon": "^2.0.6"
+  }
+}
